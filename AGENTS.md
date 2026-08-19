@@ -3,9 +3,9 @@
 ## Site conventions
 
 - This is a personal landing page and blog for sharing knowledge, experiences, and projects.
-- It is a GitHub Pages site built with Jekyll. Keep the source portable and compatible with GitHub Pages.
-- `_config.yml` is the canonical source for the Jekyll site title. Update it deliberately with public branding changes.
-- Preserve `CNAME` unless the custom domain is intentionally changed.
+- It is a GitHub Pages site built with Jekyll from the `docs/` publishing directory. Keep the source portable and compatible with GitHub Pages.
+- `docs/_config.yml` is the canonical source for the Jekyll site title. Update it deliberately with public branding changes.
+- Preserve `docs/CNAME` unless the custom domain is intentionally changed.
 - Use semantic, accessible HTML. Provide `alt` text for meaningful images and keep interactive elements keyboard accessible.
 
 ## Fresh-container setup

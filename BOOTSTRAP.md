@@ -39,7 +39,7 @@ bundle exec jekyll --version
 Run Jekyll with an explicit UTF-8 locale because the project's locked legacy Sass dependency can otherwise report an `Invalid US-ASCII character` error:
 
 ```sh
-LANG=C.UTF-8 LC_ALL=C.UTF-8 bundle exec jekyll serve --livereload
+LANG=C.UTF-8 LC_ALL=C.UTF-8 bundle exec jekyll serve --source docs --livereload
 ```
 
 Then open `http://127.0.0.1:4000/` in a browser. (Developers should run `./run.sh` with Docker instead.)

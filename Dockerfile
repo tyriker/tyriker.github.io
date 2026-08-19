@@ -10,4 +10,4 @@ COPY . ./
 
 EXPOSE 4000
 
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--port", "4000", "--force_polling", "--incremental"]
+CMD ["bundle", "exec", "jekyll", "serve", "--source", "docs", "--host", "0.0.0.0", "--port", "4000", "--force_polling", "--incremental"]
