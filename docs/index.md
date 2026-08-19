@@ -8,9 +8,10 @@ permalink: /
   <h1>tyriker.com</h1>
   <p>A personal site for sharing knowledge, experiences, and projects.</p>
 
-  <div class="skelly-wrap">
+  <figure class="skelly-wrap">
     <img src="{{ '/assets/skeleton.svg' | relative_url }}" alt="Cartoonish skeleton" width="130" height="203" class="skelly">
-  </div>
+    <figcaption>Skelly generated with AI</figcaption>
+  </figure>
 
   <ul class="home-nav">
     <li>Read the latest notes on <a href="{{ '/writing/' | relative_url }}">Writing</a>.</li>

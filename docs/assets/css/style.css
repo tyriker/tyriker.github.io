@@ -75,7 +75,8 @@ img {
 
 .skelly-wrap {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin: 1.5rem 0;
 }
 
@@ -83,6 +84,12 @@ img {
   width: 130px;
   max-width: 100%;
   height: auto;
+}
+
+.skelly-wrap figcaption {
+  color: #52616b;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
 }
 
 .home-nav {
