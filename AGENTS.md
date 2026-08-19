@@ -8,6 +8,10 @@
 - Preserve `CNAME` unless the custom domain is intentionally changed.
 - Use semantic, accessible HTML. Provide `alt` text for meaningful images and keep interactive elements keyboard accessible.
 
+## Fresh-container setup
+
+- See [BOOTSTRAP.md](BOOTSTRAP.md) for the project-specific system and Bundler setup required after rebuilding the shared Pi development container.
+
 ## Scope and validation
 
 - Prefer plain text, Markdown, HTML, and CSS. Do not add a theme, JavaScript framework, build dependency, or generated files unless the requested outcome requires it.
