@@ -12,4 +12,4 @@
 
 - Prefer plain text, Markdown, HTML, and CSS. Do not add a theme, JavaScript framework, build dependency, or generated files unless the requested outcome requires it.
 - Keep changes focused. Do not alter deployment settings, domain settings, or unrelated files.
-- Verify internal links and path casing, run `git diff --check`, and review the final diff. State validation that could not be run.
+- Verify internal links and path casing, run `git diff --check`, and review the final diff. Do not run Jekyll builds or tests; the user will run and test Jekyll locally.

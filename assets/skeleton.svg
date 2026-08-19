@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 500" role="img" aria-labelledby="title desc">
+  <title id="title">Cartoonish dancing skeleton</title>
+  <desc id="desc">A cheerful off-white cartoon skeleton with a large skull, raised arms, and bent legs.</desc>
+  <defs>
+    <filter id="shadow" x="-30%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="3" flood-color="#382d3b" flood-opacity=".3"/>
+    </filter>
+  </defs>
+
+  <g fill="#fff8df" stroke="#382d3b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
+    <!-- Skull -->
+    <path d="M102 70C102 31 128 12 162 12c36 0 59 23 59 59 0 24-9 36-22 46v25H124v-24c-14-12-22-26-22-48Z"/>
+    <path d="M126 139h71v20c0 15-15 27-35 27s-36-12-36-27Z"/>
+    <path d="M137 154v18m16-18v20m17-20v20m16-20v-18" fill="none" stroke-width="4"/>
+
+    <!-- Neck and backbone -->
+    <path d="M151 184v19m22-19v19" fill="none"/>
+    <path d="M161 199v125" fill="none" stroke-width="9"/>
+
+    <!-- Collarbones, ribs, and pelvis -->
+    <path d="M160 204 111 218m49-14 50 14" fill="none"/>
+    <path d="M121 218c-14 13-15 40 6 57m24-61c-16 15-15 51 2 70m16-70c16 15 15 51-2 70m31-66c14 13 15 40-6 57" fill="none"/>
+    <path d="M129 229h63m-69 19h76m-71 19h66" fill="none" stroke-width="5"/>
+    <path d="M127 291c0 27 14 43 34 43s34-16 34-43l-19 9h-30Z"/>
+    <path d="M146 301c-1 14 5 22 15 22s16-8 15-22" fill="none" stroke-width="4"/>
+
+    <!-- Left raised arm -->
+    <path d="M113 218 75 174 50 128" fill="none" stroke-width="11"/>
+    <path d="M48 126 30 91m18 35 5-38m-5 38 29-25" fill="none"/>
+
+    <!-- Right waving arm -->
+    <path d="M209 219 244 193 267 153" fill="none" stroke-width="11"/>
+    <path d="M267 152 279 116m-12 36-13-29m13 29 24-23" fill="none"/>
+
+    <!-- Left leg -->
+    <path d="M145 332 116 379 101 432" fill="none" stroke-width="12"/>
+    <path d="M102 432 83 461h53" fill="none" stroke-width="12"/>
+
+    <!-- Right leg -->
+    <path d="M177 332 204 374 229 419" fill="none" stroke-width="12"/>
+    <path d="M229 419 249 449h-53" fill="none" stroke-width="12"/>
+  </g>
+
+  <!-- Face details -->
+  <g fill="#382d3b">
+    <ellipse cx="133" cy="82" rx="15" ry="19"/>
+    <ellipse cx="188" cy="82" rx="15" ry="19"/>
+    <path d="M160 98c-8 8-8 16 0 16s8-8 0-16Z"/>
+  </g>
+  <path d="M138 125c14 10 30 10 45 0" fill="none" stroke="#382d3b" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Bone joint accents -->
+  <g fill="#ffcc67" stroke="#382d3b" stroke-width="4">
+    <circle cx="113" cy="218" r="7"/>
+    <circle cx="209" cy="219" r="7"/>
+    <circle cx="145" cy="332" r="7"/>
+    <circle cx="177" cy="332" r="7"/>
+    <circle cx="116" cy="379" r="7"/>
+    <circle cx="204" cy="374" r="7"/>
+  </g>
+</svg>
