@@ -28,17 +28,19 @@ Write the post here.
 
 Posts appear on the Writing page after GitHub Pages builds the site.
 
-## Preview locally
+## Preview locally (Developers)
 
-GitHub Pages builds the site from the `main` branch. No local Ruby dependencies are committed to this repository.
+GitHub Pages builds the site from the `main` branch. Developers preview locally using Docker and Docker Compose v2 (no local Ruby or Jekyll installation needed on your host machine).
 
-If Jekyll is installed locally, preview the site from the repository root:
+From the repository root, start the local preview with:
 
 ```sh
-jekyll serve
+./run.sh
 ```
 
-Then open the URL printed by Jekyll, usually `http://127.0.0.1:4000/`.
+Then open `http://127.0.0.1:4000/`. The source directory is mounted into the container, so Jekyll rebuilds when site files change. Press `Ctrl+C` to stop the preview.
+
+*(Note: In the Pi development agent container, Jekyll runs natively instead of via Docker; see [BOOTSTRAP.md](BOOTSTRAP.md) for agent container bootstrap instructions.)*
 
 ## Validate changes
 
@@ -46,7 +48,7 @@ Before publishing, run:
 
 ```sh
 git diff --check
-jekyll build
+docker compose run --rm site bundle exec jekyll build
 ```
 
-`jekyll build` is optional when Jekyll is not installed locally; GitHub Pages remains the deployment build. Also verify internal links and filename casing, because GitHub Pages uses a case-sensitive filesystem.
+Also verify internal links and filename casing, because GitHub Pages uses a case-sensitive filesystem.
