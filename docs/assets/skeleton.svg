@@ -1,62 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 500" width="320" height="500" role="img" aria-labelledby="title desc">
-  <title id="title">Cartoonish dancing skeleton</title>
-  <desc id="desc">A cheerful off-white cartoon skeleton with a large skull, raised arms, and bent legs.</desc>
+  <title id="title">Dancing cartoon skeleton</title>
+  <desc id="desc">A cheerful ivory skeleton dances with one arm raised, a waving hand, and bent legs.</desc>
   <defs>
-    <filter id="shadow" x="-30%" y="-20%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="5" stdDeviation="3" flood-color="#382d3b" flood-opacity=".3"/>
+    <linearGradient id="bone" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#fffdf1"/>
+      <stop offset="1" stop-color="#f4e8c8"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-20%" width="160%" height="165%">
+      <feDropShadow dx="0" dy="5" stdDeviation="3" flood-color="#382d3b" flood-opacity=".26"/>
     </filter>
   </defs>
 
-  <g fill="#fff8df" stroke="#382d3b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
-    <!-- Skull -->
-    <path d="M102 70C102 31 128 12 162 12c36 0 59 23 59 59 0 24-9 36-22 46v25H124v-24c-14-12-22-26-22-48Z"/>
-    <path d="M126 139h71v20c0 15-15 27-35 27s-36-12-36-27Z"/>
-    <path d="M137 154v18m16-18v20m17-20v20m16-20v-18" fill="none" stroke-width="4"/>
+  <g stroke="#382d3b" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
+    <!-- Skull and jaw -->
+    <path d="M102 70C102 32 127 12 161 12c36 0 59 23 59 58 0 23-8 37-22 47v23h-74v-23c-14-11-22-26-22-47Z" fill="url(#bone)" stroke-width="7"/>
+    <path d="M126 139h71v18c0 16-15 28-35 28s-36-12-36-28Z" fill="url(#bone)" stroke-width="7"/>
+    <path d="M138 153v19m15-19v21m17-21v21m16-21v19" fill="none" stroke-width="4"/>
 
-    <!-- Neck and backbone -->
-    <path d="M151 184v19m22-19v19" fill="none"/>
-    <path d="M161 199v125" fill="none" stroke-width="9"/>
+    <!-- Spine, shoulders, ribs, and pelvis -->
+    <path d="M151 184v17m22-17v17" fill="none" stroke-width="7"/>
+    <path d="M160 200v123" fill="none" stroke-width="8"/>
+    <g fill="#ffcc67" stroke-width="3">
+      <circle cx="160" cy="211" r="4"/><circle cx="160" cy="228" r="4"/>
+      <circle cx="160" cy="245" r="4"/><circle cx="160" cy="262" r="4"/>
+      <circle cx="160" cy="279" r="4"/><circle cx="160" cy="296" r="4"/>
+    </g>
+    <path d="M160 204 111 218m49-14 50 14" fill="none" stroke-width="7"/>
+    <path d="M121 219c-14 13-15 39 6 56m25-61c-16 15-15 50 2 70m15-70c16 15 15 50-2 70m31-65c14 13 15 39-6 56" fill="none" stroke-width="7"/>
+    <path d="M130 229h61m-68 19h75m-69 19h63" fill="none" stroke-width="5"/>
+    <path d="M127 290c0 28 14 45 34 45s34-17 34-45l-19 9h-30Z" fill="url(#bone)" stroke-width="7"/>
+    <path d="M146 302c-1 14 5 22 15 22s16-8 15-22" fill="none" stroke-width="4"/>
 
-    <!-- Collarbones, ribs, and pelvis -->
-    <path d="M160 204 111 218m49-14 50 14" fill="none"/>
-    <path d="M121 218c-14 13-15 40 6 57m24-61c-16 15-15 51 2 70m16-70c16 15 15 51-2 70m31-66c14 13 15 40-6 57" fill="none"/>
-    <path d="M129 229h63m-69 19h76m-71 19h66" fill="none" stroke-width="5"/>
-    <path d="M127 291c0 27 14 43 34 43s34-16 34-43l-19 9h-30Z"/>
-    <path d="M146 301c-1 14 5 22 15 22s16-8 15-22" fill="none" stroke-width="4"/>
+    <!-- Raised left arm and hand -->
+    <path d="M112 218 76 176 53 130" fill="none" stroke-width="11"/>
+    <path d="M54 130 37 97m17 33 4-38m-4 38 29-25" fill="none" stroke-width="7"/>
 
-    <!-- Left raised arm -->
-    <path d="M113 218 75 174 50 128" fill="none" stroke-width="11"/>
-    <path d="M48 126 30 91m18 35 5-38m-5 38 29-25" fill="none"/>
+    <!-- Waving right arm and hand -->
+    <path d="M209 219 243 194 266 154" fill="none" stroke-width="11"/>
+    <path d="M266 154 278 118m-12 36-13-29m13 29 24-23" fill="none" stroke-width="7"/>
 
-    <!-- Right waving arm -->
-    <path d="M209 219 244 193 267 153" fill="none" stroke-width="11"/>
-    <path d="M267 152 279 116m-12 36-13-29m13 29 24-23" fill="none"/>
-
-    <!-- Left leg -->
-    <path d="M145 332 116 379 101 432" fill="none" stroke-width="12"/>
+    <!-- Bent legs and feet -->
+    <path d="M145 333 116 379 101 432" fill="none" stroke-width="12"/>
     <path d="M102 432 83 461h53" fill="none" stroke-width="12"/>
-
-    <!-- Right leg -->
-    <path d="M177 332 204 374 229 419" fill="none" stroke-width="12"/>
+    <path d="M177 333 204 374 229 419" fill="none" stroke-width="12"/>
     <path d="M229 419 249 449h-53" fill="none" stroke-width="12"/>
+
+    <!-- Warm joint accents make the pose easier to read at small sizes -->
+    <g fill="#ffcc67" stroke-width="4">
+      <circle cx="112" cy="218" r="7"/><circle cx="209" cy="219" r="7"/>
+      <circle cx="145" cy="333" r="7"/><circle cx="177" cy="333" r="7"/>
+      <circle cx="116" cy="379" r="7"/><circle cx="204" cy="374" r="7"/>
+    </g>
   </g>
 
-  <!-- Face details -->
+  <!-- Face details sit above the skull group for crisp, readable expression -->
   <g fill="#382d3b">
     <ellipse cx="133" cy="82" rx="15" ry="19"/>
     <ellipse cx="188" cy="82" rx="15" ry="19"/>
-    <path d="M160 98c-8 8-8 16 0 16s8-8 0-16Z"/>
+    <path d="M160 97c-8 9-8 16 0 16s8-7 0-16Z"/>
   </g>
-  <path d="M138 125c14 10 30 10 45 0" fill="none" stroke="#382d3b" stroke-width="5" stroke-linecap="round"/>
-
-  <!-- Bone joint accents -->
-  <g fill="#ffcc67" stroke="#382d3b" stroke-width="4">
-    <circle cx="113" cy="218" r="7"/>
-    <circle cx="209" cy="219" r="7"/>
-    <circle cx="145" cy="332" r="7"/>
-    <circle cx="177" cy="332" r="7"/>
-    <circle cx="116" cy="379" r="7"/>
-    <circle cx="204" cy="374" r="7"/>
-  </g>
+  <path d="M138 125c14 10 30 10 45 0" fill="none" stroke="#382d3b" stroke-linecap="round" stroke-width="5"/>
 </svg>
