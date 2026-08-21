@@ -20,11 +20,6 @@
     <!-- Neck -->
     <path d="M151 166v35m22-35v35" fill="none" stroke-width="7"/>
     <path d="M160 200v123" fill="none" stroke-width="8"/>
-    <g fill="#ffcc67" stroke-width="3">
-      <circle cx="160" cy="211" r="4"/><circle cx="160" cy="228" r="4"/>
-      <circle cx="160" cy="245" r="4"/><circle cx="160" cy="262" r="4"/>
-      <circle cx="160" cy="279" r="4"/><circle cx="160" cy="296" r="4"/>
-    </g>
     <path d="M160 204 111 218m49-14 50 14" fill="none" stroke-width="7"/>
     <path d="M121 219c-14 13-15 39 6 56m25-61c-16 15-15 50 2 70m15-70c16 15 15 50-2 70m31-65c14 13 15 39-6 56" fill="none" stroke-width="7"/>
     <path d="M130 229h61m-68 19h75m-69 19h63" fill="none" stroke-width="5"/>
@@ -45,12 +40,6 @@
     <path d="M177 333 204 374 229 419" fill="none" stroke-width="12"/>
     <path d="M229 419 249 449h-53" fill="none" stroke-width="12"/>
 
-    <!-- Warm joint accents make the pose easier to read at small sizes -->
-    <g fill="#ffcc67" stroke-width="4">
-      <circle cx="112" cy="218" r="7"/><circle cx="209" cy="219" r="7"/>
-      <circle cx="145" cy="333" r="7"/><circle cx="177" cy="333" r="7"/>
-      <circle cx="116" cy="379" r="7"/><circle cx="204" cy="374" r="7"/>
-    </g>
   </g>
 
   <!-- Face details sit above the skull group for crisp, readable expression -->
