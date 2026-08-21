@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Writing
+title: Notes, Ideas, and Lessons
 permalink: /writing/
 ---
 
-# Writing
+# Notes, Ideas, and Lessons
 
 Notes, experiences, and ideas.
 

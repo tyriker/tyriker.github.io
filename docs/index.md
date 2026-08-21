@@ -14,7 +14,7 @@ permalink: /
   </figure>
 
   <ul class="home-nav">
-    <li>Latest notes on <a href="{{ '/writing/' | relative_url }}">Writing</a>.</li>
-    <li>Explore work on <a href="{{ '/projects/' | relative_url }}">Projects</a>.</li>
+    <li>Latest <a href="{{ '/writing/' | relative_url }}">Notes, Ideas, and Lessons</a>.</li>
+    <li>Explore <a href="{{ '/projects/' | relative_url }}">Projects</a>.</li>
   </ul>
 </div>

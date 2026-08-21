@@ -9,7 +9,7 @@ The site source is isolated in `docs/` to ensure non-site files at the repositor
 - `docs/_config.yml` — Jekyll site configuration, including the canonical site title.
 - `docs/_layouts/default.html` — shared document structure, navigation, and page title.
 - `docs/index.md` — landing page.
-- `docs/writing.md` — blog index; it lists posts from `docs/_posts/`.
+- `docs/writing.md` — Notes, Ideas, and Lessons index; it lists posts from `docs/_posts/`.
 - `docs/projects.md` — projects page.
 - `docs/_posts/` — dated Markdown blog posts.
 - `docs/assets/css/style.css` — shared stylesheet.
@@ -32,7 +32,7 @@ title: A useful idea
 Write the post here.
 ```
 
-Posts appear on the Writing page after GitHub Pages builds the site.
+Posts appear on the Notes, Ideas, and Lessons page after GitHub Pages builds the site.
 
 ## Preview locally (Developers)
 
