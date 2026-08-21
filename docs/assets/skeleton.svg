@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 500" width="320" height="500" role="img" aria-labelledby="title desc">
   <title id="title">Dancing cartoon skeleton</title>
-  <desc id="desc">A cheerful ivory skeleton dances with one arm raised, a waving hand, and bent legs.</desc>
+  <desc id="desc">A cheerful ivory skeleton with a visible neck dances with one arm raised, a waving hand, and bent legs.</desc>
   <defs>
     <linearGradient id="bone" x1="0" x2="0" y1="0" y2="1">
       <stop stop-color="#fffdf1"/>
@@ -13,13 +13,12 @@
   </defs>
 
   <g stroke="#382d3b" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
-    <!-- Skull and jaw -->
-    <path d="M102 70C102 32 127 12 161 12c36 0 59 23 59 58 0 23-8 37-22 47v23h-74v-23c-14-11-22-26-22-47Z" fill="url(#bone)" stroke-width="7"/>
-    <path d="M126 139h71v18c0 16-15 28-35 28s-36-12-36-28Z" fill="url(#bone)" stroke-width="7"/>
-    <path d="M138 153v19m15-19v21m17-21v21m16-21v19" fill="none" stroke-width="4"/>
+    <!-- Skull -->
+    <path d="M102 70C102 32 127 12 161 12c36 0 59 23 59 58 0 23-8 37-22 47v23h-74v-23c-14-11-22-26-22-47Z" transform="translate(0 26)" fill="url(#bone)" stroke-width="7"/>
 
     <!-- Spine, shoulders, ribs, and pelvis -->
-    <path d="M151 184v17m22-17v17" fill="none" stroke-width="7"/>
+    <!-- Neck -->
+    <path d="M151 166v35m22-35v35" fill="none" stroke-width="7"/>
     <path d="M160 200v123" fill="none" stroke-width="8"/>
     <g fill="#ffcc67" stroke-width="3">
       <circle cx="160" cy="211" r="4"/><circle cx="160" cy="228" r="4"/>
@@ -55,10 +54,10 @@
   </g>
 
   <!-- Face details sit above the skull group for crisp, readable expression -->
-  <g fill="#382d3b">
+  <g transform="translate(0 26)" fill="#382d3b">
     <ellipse cx="133" cy="82" rx="15" ry="19"/>
     <ellipse cx="188" cy="82" rx="15" ry="19"/>
     <path d="M160 97c-8 9-8 16 0 16s8-7 0-16Z"/>
+    <ellipse cx="160" cy="128" rx="23" ry="15"/>
   </g>
-  <path d="M138 125c14 10 30 10 45 0" fill="none" stroke="#382d3b" stroke-linecap="round" stroke-width="5"/>
 </svg>
